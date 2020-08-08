@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7F0007</color>
+    <color name="colorPrimaryDark">#4B0004</color>
+    <color name="colorAccent">#7F0007</color>
+
+
+    <color name="gris_">#979797</color>
+    <color name="colorBlancRestaurant">#ffffff</color>
+    <color name="gris">#acacac</color>
+
+    <color name="lightgray">#ededed</color>
+    <color name="rouge_clair2">#bfbfbf</color>
+    <color name="colortext">#FAFAFA</color>
+
+
+
+    <color name="color0">#55ffffff</color>
+    <color name="color1">#55CDCDCD</color>
+    <color name="color2">#55C8C8C8</color>
+    <color name="color3">#55C3C3C3</color>
+    <color name="color4">#55BEBEBE</color>
+    <color name="color5">#55B9B9B9</color>
+    <color name="color6">#55B4B4B4</color>
+    <color name="color7">#55AFAFAF</color>
+    <color name="color8">#55AAAAAA</color>
+    <color name="color9">#55A5A5A5</color>
+    <color name="color10">#55A0A0A0</color>
+    <color name="color11">#559B9B9B</color>
+
+</resources>

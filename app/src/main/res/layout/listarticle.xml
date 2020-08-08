@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:layout_margin="15dp"
+    android:gravity="center_vertical|center"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_cadre"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/codart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="code"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="12dp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/designationarticle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="designation"
+
+                android:textColor="@color/colorBlancRestaurant"
+                android:textSize="22sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/prixart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlancRestaurant"
+                android:textSize="22sp"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/bt_moins"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+
+                android:background="@drawable/circle_red"
+                android:text="-"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:text="Qte : "
+                android:textColor="@color/colorBlancRestaurant"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tqt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.000"
+                android:textColor="@color/colorBlancRestaurant"
+                android:textColorLink="@color/colorBlancRestaurant"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt_plus"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/circle_red"
+                android:text="+"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+

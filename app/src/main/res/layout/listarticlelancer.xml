@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:layout_margin="15dp"
+    android:gravity="center_vertical|center"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/round_cadre_art_lancee"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/codart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:text="code"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/designationarticle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="designation"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorAccent"
+                android:textSize="22sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="QT : "
+                android:textColor="@color/colorBlancRestaurant"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tqt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="0"
+                android:textColor="@color/colorBlancRestaurant"
+                android:textColorLink="@color/colorBlancRestaurant"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prixart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlancRestaurant"
+                android:textSize="22sp"
+                android:typeface="serif" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+

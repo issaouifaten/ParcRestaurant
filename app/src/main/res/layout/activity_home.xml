@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg7"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bttable"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/bttable" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="N° Table : "
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16dp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/numtable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace" />
+
+                    <TextView
+                        android:id="@+id/num_ticket"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="TextView"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/v"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/t"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/listprod"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:dividerHeight="0dp"
+                android:padding="5dp">
+
+            </ListView>
+
+            <ListView
+                android:id="@+id/listcmd"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:visibility="visible">
+
+            </ListView>
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Commande lancé" />
+            <GridView
+                android:id="@+id/grid_article_lancer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+
+            </GridView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/l"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btcloture"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="Cloturer"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btvalider"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="Valider"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
